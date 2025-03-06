@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  font-family: serif;
+  font-weight: 900;
+  font-style: Italic;
+  font-size: 2.4rem;
+  font-spacing: -0px;
+}
+
+#container {
+  filter: url("#noise") blur(2px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+#text {
+  margin: 0;
+  line-height: 2rem;
+  word-break: break-all;
+  padding: 10%;
+}
+
+html {
+  filter: url("#contrast");
+  height: 100%;
+}
